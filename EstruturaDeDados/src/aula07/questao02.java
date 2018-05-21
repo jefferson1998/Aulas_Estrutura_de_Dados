@@ -3,7 +3,7 @@ package aula07;
 import java.util.Arrays;
 
 public class questao02 {
-	public static int[] questao02(int [][] m) {
+	public static int[] questaoMaiorValorEmUmaMatriz(int [][] m) {
 		
 		int linhaColuna[] = new int [2];
 		int menor = m[0][0];
@@ -31,7 +31,7 @@ public class questao02 {
 				{1,2}
 				
 		};
-		System.out.println(Arrays.toString(questao02(m)));
+		System.out.println(Arrays.toString(questaoMaiorValorEmUmaMatriz(m)));
 		
 	}
 

@@ -1,7 +1,7 @@
 package aula07;
 
 public class questao10 {
-	public static boolean bordaM(int [][]m) {
+	public static boolean verificarElementosDaBordaDaMatriz(int [][]m) {
 		for(int l = 0; l < m.length; l++) {
 			for(int c = 0; c < m[l].length; c++) {
 //				if(m[0][c] != 1 || m[m.length - 1][c] != 1) {
@@ -39,7 +39,7 @@ public class questao10 {
 				
 		};
 		
-		System.out.println(bordaM(matriz));
+		System.out.println(verificarElementosDaBordaDaMatriz(matriz));
 		
 	}
 

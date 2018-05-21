@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class Exercicio1 {
-	public static double maior(double[] array) {
+	public static double maiorValorEmUmArray(double[] array) {
 		double maior = 0;
 		
 		for(int i = 0; i < array.length; i++) {
@@ -26,7 +26,7 @@ public class Exercicio1 {
 			array[i] = (Math.random() * (5 - 1) + 1);
 		}
 		
-		System.out.println(Arrays.toString(array) + maior(array));
+		System.out.println(Arrays.toString(array) + maiorValorEmUmArray(array));
 	}
 }
 

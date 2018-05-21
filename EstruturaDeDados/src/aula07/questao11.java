@@ -3,7 +3,7 @@ package aula07;
 import java.util.Arrays;
 
 public class questao11 {
-	public static int subMatriz(int [][]m) {
+	public static int verificarUmaSubMatriz(int [][]m) {
 		int cont = 0;
 		int [][]subMatriz = {
 				{0,1},
@@ -31,7 +31,7 @@ public static void main(String[] args) {
 		};
 		
 	
-			System.out.println(subMatriz(m));
+			System.out.println(verificarUmaSubMatriz(m));
 		
 		
 		

@@ -2,7 +2,7 @@ package aula07;
 
 
 public class questao06 {
-	public static int[][] transposta (int[][]matriz) {
+	public static int[][] matrizTransposta (int[][]matriz) {
 		int[][] trans = new int [0][0];
 		
 		for(int i = 0; i < matriz.length; i++) {
@@ -42,6 +42,6 @@ public class questao06 {
 		}
 		System.out.println(mostrar);
 		
-//		System.out.println(Arrays.toString(matriz) + "\n" + Arrays.toString(transposta(matriz)));
+//		System.out.println(Arrays.toString(matriz) + "\n" + Arrays.toString(matrizTransposta(matriz)));
 	}
 }

@@ -3,7 +3,7 @@ package aula07;
 import java.util.Arrays;
 
 public class questao04 {
-	public static int[][] somaMatrizes (int[][] m1, int [][]m2) {
+	public static int[][] somaDeMatrizes (int[][] m1, int [][]m2) {
 		
 	boolean ok = true;
 	
@@ -46,6 +46,6 @@ public static void main(String[] args) {
 			{2,5}
 	};
 	
-	System.out.println(Arrays.toString(somaMatrizes(m1, m2)));
+	System.out.println(Arrays.toString(somaDeMatrizes(m1, m2)));
 }
 }

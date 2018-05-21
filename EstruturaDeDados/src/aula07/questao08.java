@@ -3,7 +3,7 @@ package aula07;
 import java.util.Arrays;
 
 public class questao08 {
-	public static int []somaLinhas(int [][]matriz) {
+	public static int []somaLinhasDaMatriz(int [][]matriz) {
 		int []array = new int [matriz.length];
 		int somatorio = 0;
 		for(int l = 0; l < matriz.length; l++) {
@@ -24,6 +24,6 @@ public class questao08 {
 				{3,4,1}
 		};
 		
-		System.out.println(Arrays.toString(somaLinhas(matriz)));
+		System.out.println(Arrays.toString(somaLinhasDaMatriz(matriz)));
 	}
 }
